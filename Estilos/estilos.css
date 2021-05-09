@@ -524,3 +524,9 @@ h1 a{
 	line-height: 29px;
 }
 
+@media screen and (max-width: 1200px){
+	.contenedor_contenido{
+		margin-top: 20px;
+	}
+}
+
