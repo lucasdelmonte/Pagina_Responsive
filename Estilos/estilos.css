@@ -32,6 +32,10 @@ nav{ /*Para la barra de navegación*/
 	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 }
 
+nav img{
+	display: none;
+}
+
 h1 a{
 	color: #fff;
 	text-decoration: none;
@@ -54,7 +58,7 @@ h1 a{
 }
 
 .descripcion{
-	width: 50%;
+	width: 60%;
 }
 
 .descripcion p{
@@ -83,8 +87,7 @@ h1 a{
 .header img{
 	box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.25);
 	margin: 30px 0;
-	margin-left: 15px;
-	height: 70%;
+	height: 80%;
 	width: 590px;
 	padding: 10px;
 	background: #353D40 url("../Imagenes/bg04.png");
@@ -104,8 +107,11 @@ h1 a{
 		text-align: center;
 	}
 	nav{
-		flex-direction: column;
+		flex-direction: row;
 		height: 60px;
+	}
+	nav img{
+		display: block;
 	}
 	.navbar a{
 		display: none;
@@ -231,7 +237,6 @@ h1 a{
 }
 
 .panel1, .panel2, .panel3{
-	height: 510px;
 	padding: 20px 20px 5px 20px;
 	width: 30%;
 	background-color: #FFF;
